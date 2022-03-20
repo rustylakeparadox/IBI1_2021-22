@@ -10,9 +10,12 @@ from random import randint
 # e.g. ceil(4.2)=5
 from math import ceil
 
+# set the initial value of "progress"
 progress=0
+# set the loop which can choose a random number in (1,100), after running 10 times, this loop stops.
 while progress<10:
 	progress+=1
 	n = randint(1,100)
 
+# output the value of n
 print(n)
