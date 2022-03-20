@@ -1,1 +1,2 @@
-I feel painful during the practical process, it's so complicated and hard.
+I found the practical rather hard to complete, especially when tring to push or merge.
+Question: can I merge when the texts are not exactly the same in two branches?
