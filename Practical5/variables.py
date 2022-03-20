@@ -15,5 +15,8 @@ else:
 3.2 Booleans
 X = input("X =")
 Y = input("Y =")
+# input 2 boolean values X and Y
 W = X and Y
+# set the boolean value of W
 print (W)
+# output the answer
