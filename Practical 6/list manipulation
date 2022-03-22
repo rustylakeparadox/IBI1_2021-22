@@ -1,7 +1,11 @@
+# Print the list of given values for Rob’s marks
 marks=[45,36,86,57,53,92,65,45]
+# sort the values
 marks.sort()
+# print the sorted values
 print(marks)
 
+# draw the boxplot
 import matplotlib.pyplot as plt
 plt.boxplot(marks,vert=True,
             whis=1.5,
@@ -10,11 +14,17 @@ plt.boxplot(marks,vert=True,
             showcaps=True,
             showfliers=True,
             notch=False)
+# show the graph
 plt.show()
 
+# calculate the average value of marks
 sum_=sum(marks)
 average=sum_/8
+
+# output the average mark
 print(average)
+
+# judge and print out whether Rob pass the ICA
 if average >= 60:
     print('Rob passed this ICA')
 else:
