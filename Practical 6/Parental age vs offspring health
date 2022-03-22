@@ -1,12 +1,20 @@
+# create a dictionary that record the datas provided
 age_chd={'30':1.03, '35':1.07, '40':1.11, '45':1.17, '50':1.23, '55':1.32, '60':1.42, '65':1.55,'70':1.72,'75':1.94}
+# print the dictionary out
 print(age_chd)
+# create two lists that seperately store two sets of datas
 paternal_age=[30,35,40,45,50,55,60,65,70,75]
 chd=[1.03,1.07,1.11,1.17,1.23,1.32,1.42,1.55,1.72,1.94]
 
+# draw the scatter plot
 import matplotlib.pyplot as plt
 plt.scatter(x=paternal_age, y=chd)
+# show the plot
 plt.show()
 
+# give a paternal	age from the input list above
 x = input('paternal_age = ')
+# according to the index of paternal age, find its corresponding value in "chd"
 y=paternal_age.index(int(x))
+# output the answer
 print('the risk of congenital heart disease for the offspring is' + str(chd[y]))
