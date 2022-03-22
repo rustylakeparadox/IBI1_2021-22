@@ -1,0 +1,21 @@
+marks=[45,36,86,57,53,92,65,45]
+marks.sort()
+print(marks)
+
+import matplotlib.pyplot as plt
+plt.boxplot(marks,vert=True,
+            whis=1.5,
+            patch_artist=True,
+            meanline=True,
+            showcaps=True,
+            showfliers=True,
+            notch=False)
+plt.show()
+
+sum_=sum(marks)
+average=sum_/8
+print(average)
+if average >= 60:
+    print('Rob passed this ICA')
+else:
+    print('Rob failed this ICA')
