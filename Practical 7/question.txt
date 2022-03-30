@@ -1,0 +1,14 @@
+question: Plot a boxplot of total case numbers in different countries on 14 March 2020.
+
+answer: from line 47
+
+use the boxplot function to draw the graph,  its parameters:
+
+'vert = True' --   vertical box alignment
+'whis = 1.5' -- Specify the distance between the upper and lower quartiles,  here sets it the 75% of the original
+'patch_artist = True' -- fill with color
+'meanline = False' -- Whether to represent the mean value in the form of line. It is represented by point by default
+'showbox = True' -- Whether to display the box of the box line diagram, which is displayed by default;
+'showcaps = True' -- Whether to display the two lines at the top and end of the box diagram. It is displayed by default
+'showfliers=False' -- Hide outliers
+'notch=False' -- no notch shape
