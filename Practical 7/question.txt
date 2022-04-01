@@ -12,3 +12,6 @@ use the boxplot function to draw the graph,  its parameters:
 'showcaps = True' -- Whether to display the two lines at the top and end of the box diagram. It is displayed by default
 'showfliers=False' -- Hide outliers
 'notch=False' -- no notch shape
+
+discussion about the results:
+The boxplot corresponds with my expectation. The range of the value is quite wide, from around 5 to over 130000. However, most of the data has relatively low values so the mean value is only around 35 but the upper range almost reaches 200.
