@@ -7,9 +7,9 @@ d = b - c
 e = a - b 
 # calculate the dependent variables
 if d < e:
-  print(the rate of new	cases	was greater	in 2021)
+  print("the rate of new	cases	was greater	in 2021")
 else:
-  print(the rate of new cases was greater in 2020)
+  print("the rate of new cases was greater in 2020")
 # output to answer the question
 
 # 3.2 Booleans
