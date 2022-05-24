@@ -9,5 +9,5 @@ while p < 64:
   p = (n * n + n + 2)/2
   # import the calculation formula of p
   
-  print("whis is the" + str(n) + "th(st/rd) time of cutting, the	total	number	of pieces	of	pizza is" + str(p))
+  print("The total number of pieces of pizza is " + str(p) + " for " + str(n) + " cuts.")
 # output the outcome
