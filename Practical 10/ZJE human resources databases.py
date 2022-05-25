@@ -4,13 +4,9 @@ class staff (object):      # create a class
         self.x = x               
         self.y = y
         self.z = z
-
+       # print out the information
+        print("Name:",self.x,"Location:",self.y,"Role:",self.z)
 
 # give an example
 a = staff('Chen Yanhui', 'International Campus', 'administration')  # call the class
-print(a.x)
-## Chen Yanhui
-print(a.y)
-## International Campus
-print(a.z)
-## administration
+## Name: Chen Yanhui Location: International Campus Role: administration
